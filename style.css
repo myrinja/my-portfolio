@@ -1,0 +1,114 @@
+body{
+    background: #cddead;
+}
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+  color: #19e919;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.topnav a:hover {
+    background-color: #f7eeee;
+    color: rgb(41, 7, 231);
+  }
+
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: #f7eeee;
+  }
+ /* #mypic{
+    display: grid;
+    place-items: center;
+      align-items: center;
+      padding: 10px;
+      margin: auto;
+      float: ;
+      justify-content: none;
+   
+  } */
+  #mypic {
+    display: inline;
+    float: left;
+  }
+  #header{
+    background: linear-gradient(#333 #f7eeee);
+    float: right;
+    padding: 10px;
+    text-align: center;
+    border: 2px;
+    margin: auto;
+    
+  }
+  .name{
+    color: #A5c1D6;
+    
+  }
+  #intro{
+    color: #8D1440;
+  }
+  #about {
+    justify-content: center;
+    float:right;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid #cddead;
+    background: rgba(44, 5, 136, 0.2);
+    line-height: 2;
+    border-radius: 2em;
+  }
+ .edubackground{
+  text-align: center;
+  margin-top: 50px;
+  padding: 2px;
+
+ }
+ #contact {
+  float: right ;
+  padding: 3%;
+  align-items: center;
+  flex: auto;
+  border: 3px solid #000;
+  background-color: rgba(44, 5, 136, 0.2);
+  border-radius: 1em;
+  justify-content: space-between;
+
+ }
+ .h1{
+  text-align: center;
+ }
+ h1{
+  color: #faf6f6;
+ }
+  .card-img-top{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+
+}
+.skills{
+  flex: auto;
+  border: px solid #0f0f0f;
+  border-radius: 2em;
+  background: rgba(44, 5, 136, 0.2);
+  width: 50%;
+  margin: 5px;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#work{
+  color: #812020;
+  text-align: center;
+}
+
+
